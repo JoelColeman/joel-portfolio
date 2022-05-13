@@ -1,3 +1,6 @@
+body {
+  font-family: 'Roboto Flex', sans-serif;
+}
 .main {
   background-image: url(./images/joe-woods-4Zaq5xY5M_c-unsplash.jpg);
   min-height: 700px;
@@ -15,6 +18,9 @@
   background-position: center;
   background-attachment: fixed;
 }
+.about-text {
+  margin-bottom: 200px;
+}
 #portfolio {
   background-image: url(./images/joe-woods-4Zaq5xY5M_c-unsplash.jpg);
   background-size: cover;
@@ -22,12 +28,17 @@
   background-attachment: fixed;
 }
 .project {
-  padding-top: calc(2 / 3 * 100%);
+  padding-top: calc(4.5 / 4 * 100%);
   background-image: url(https://picsum.photos/500/500);
   background-size: cover;
   background-position: center;
   margin-top: 25px;
   margin-bottom: 25px;
+}
+@media (min-width: 768px) {
+  .project {
+    padding-top: calc(2 / 3.5 * 100%);
+  }
 }
 .project-text {
   top: 0;
@@ -40,4 +51,14 @@
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+}
+footer {
+  background-image: url(./images/joe-woods-4Zaq5xY5M_c-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+a {
+  text-decoration: none;
+  color: black;
 }
