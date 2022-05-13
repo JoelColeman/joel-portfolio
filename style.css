@@ -1,6 +1,6 @@
 .main {
-  background-image: url(./images/patrick-tomasso-QMDap1TAu0g-unsplash.jpg);
-  min-height: 500px;
+  background-image: url(./images/joe-woods-4Zaq5xY5M_c-unsplash.jpg);
+  min-height: 700px;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -10,13 +10,13 @@
   top: 40%;
 }
 #about {
-  background-image: url(./images/patrick-tomasso-QMDap1TAu0g-unsplash.jpg);
+  background-image: url(./images/joe-woods-4Zaq5xY5M_c-unsplash.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 #portfolio {
-  background-image: url(./images/patrick-tomasso-QMDap1TAu0g-unsplash.jpg);
+  background-image: url(./images/joe-woods-4Zaq5xY5M_c-unsplash.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -34,4 +34,10 @@
   bottom: 0;
   right: 0;
   left: 0;
+}
+.social {
+  background-image: url(./images/joe-woods-4Zaq5xY5M_c-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }

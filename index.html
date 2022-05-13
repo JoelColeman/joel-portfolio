@@ -10,7 +10,7 @@
     <script src="https://kit.fontawesome.com/f44ba7b100.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light bg-opacity-50 sticky-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><i class="fa-solid fa-whiskey-glass"></i> joel</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,13 +19,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="#">about me</a>
+              <a class="nav-link" href="#about">about me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">portfolio</a>
+              <a class="nav-link" href="#portfolio">portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">find me</a>
+              <a class="nav-link" href="#find-me">find me</a>
             </li>
           </ul>
         </div>
@@ -33,12 +33,12 @@
     </nav>
     <div class="container-fluid main position-relative">
       <div class="row intro w-100 position-absolute">
-        <div class="col text-white rounded intro-text text-center">
+        <div class="col intro-text text-center">
           <h1>Hi, I'm Joel.</h1>
         </div>
       </div>
     </div>
-    <div class="container-fluid text-white text-center" id="about">
+    <div class="container-fluid text-center" id="about">
       <h1>about me</h1>
       <div class="row">
         <div class="col">
@@ -47,7 +47,7 @@
       </div>
     </div>
     <div class="container-fluid" id="portfolio">
-      <h1 class="text-white pt-2">portfolio</h1>
+      <h1 class="pt-2 text-center">portfolio</h1>
       <div class="row flex-nowrap overflow-scroll">
         <div class="col-5">
           <div class="rounded text-white project position-relative">
@@ -86,15 +86,15 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid social text-center" id="find-me">
       <div class="row">
         <div class="col">
-          <div class="social">
+          <div>
             <h1>find me</h1>
-            <div class="d-flex">
-              <div><i class="fa-brands fa-linkedin"></i></div>
-              <div><i class="fa-brands fa-github"></i></div>
-              <div><i class="fa-brands fa-instagram-square"></i></div>
+            <div class="d-flex justify-content-center">
+              <div><i class="fa-brands fa-linkedin me-3"></i></div>
+              <div><i class="fa-brands fa-github mx-3"></i></div>
+              <div><i class="fa-brands fa-instagram-square ms-3"></i></div>
             </div>
           </div>
         </div>
