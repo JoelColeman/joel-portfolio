@@ -1,3 +1,37 @@
-body {
-  background-color: black;
+.main {
+  background-image: url(./images/patrick-tomasso-QMDap1TAu0g-unsplash.jpg);
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.intro {
+  position: absolute;
+  top: 40%;
+}
+#about {
+  background-image: url(./images/patrick-tomasso-QMDap1TAu0g-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+#portfolio {
+  background-image: url(./images/patrick-tomasso-QMDap1TAu0g-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.project {
+  padding-top: calc(2 / 3 * 100%);
+  background-image: url(https://picsum.photos/500/500);
+  background-size: cover;
+  background-position: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.project-text {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
