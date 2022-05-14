@@ -33,18 +33,20 @@ body {
   background-size: cover;
   background-position: center;
   margin-top: 25px;
-  margin-bottom: 25px;
+}
+#apple {
+  background-image: url(./images/apple.png);
+}
+#airbnb {
+  background-image: url(./images/Screen\ Shot\ 2022-05-14\ at\ 2.02.38\ PM.png);
+}
+#newsweek {
+  background-image: url(./images/newsweek.png);
 }
 @media (min-width: 768px) {
   .project {
     padding-top: calc(2 / 3.5 * 100%);
   }
-}
-.project-text {
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
 }
 .social {
   background-image: url(./images/joe-woods-4Zaq5xY5M_c-unsplash.jpg);
