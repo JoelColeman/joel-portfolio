@@ -1,5 +1,6 @@
 body {
-  font-family: 'Roboto Flex', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
 }
 .main {
   background-image: url(./images/joe-woods-4Zaq5xY5M_c-unsplash.jpg);
@@ -35,13 +36,28 @@ body {
   margin-top: 25px;
 }
 #apple {
-  background-image: url(./images/apple.png);
+  background-image: url(./images/apple\ sm.png);
+}
+@media (min-width: 768px) {
+  #apple {
+    background-image: url(./images/apple.png);
+  }
 }
 #airbnb {
-  background-image: url(./images/Screen\ Shot\ 2022-05-14\ at\ 2.02.38\ PM.png);
+  background-image: url(./images/airbnb\ sm.png);
+}
+@media (min-width: 768px) {
+  #airbnb {
+    background-image: url(./images/airbnb.png);
+  }
 }
 #newsweek {
-  background-image: url(./images/newsweek.png);
+  background-image: url(./images/newsweek\ sm.png);
+}
+@media (min-width: 768px) {
+  #newsweek {
+    background-image: url(./images/newsweek.png);
+  }
 }
 @media (min-width: 768px) {
   .project {
@@ -63,4 +79,7 @@ footer {
 a {
   text-decoration: none;
   color: black;
+}
+.fa-brands, .fab {
+  font-size: 1.75rem;
 }
